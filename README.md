@@ -24,5 +24,9 @@ Finally all you need is database name of couchdb, mongodb database name & creden
 
 `master_script.sh collection_name mongo_db_name mongo_username mongo_password mongo_host mongo_port`
 
+For users, who are having mongodb open (I mean without user authentication), they can use another script and hit this command : 
+
+`./master_script_without_pwd.sh collection_name mongo_db_name mongo_host mongo_port`
+
 Happy Coding!
 -@jimishio
