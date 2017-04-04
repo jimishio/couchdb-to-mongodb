@@ -19,6 +19,11 @@ As these scripts are shell scripts you will need to export variables to your lin
 
 `export LC_ALL=C`
 
+### For IBM Cloudant database
+As per resolution of [issue](https://github.com/jimishio/couchdb-to-mongodb/issues/1), IBM Cloudant databases can be migrated easily to mognoDB as well. All the cloudant users can use below `COUCH_URL` env variable : 
+
+`export COUCH_URL="https://MY_USERNAME:MY_PASSWORD@MY_ACCOUNT@cloudant.com:port"`
+
 ## Run Script
 Finally all you need is database name of couchdb, mongodb database name & credentials. Run following script with following command : 
 
